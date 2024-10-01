@@ -1,0 +1,11 @@
+
+Initially daily 12 am script will reset all iperf3 server script was created to resolvel, resource congestion.
+
+There after monitoring of Idle time script was created. But it was not appropriate for measuring and recovering iperf3 busy server error. 
+
+######## Active Script #######
+1: iperf3_v1 => Checks every two seconds
+2: idle_iperf => while loop 10 seconds reset all iperf3 running for greater than 20 seconds
+two_bash to work on all 5201 to 5208 ports, Monitor script will monitor two_bash and all iperf3 servers
+####### Test phase #######
+1: Port 5201 to 5205 start iperf3 server with --logfile and &. Monitor log file for 0 bytes. Delete file and restart server
