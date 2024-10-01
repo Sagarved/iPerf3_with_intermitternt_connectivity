@@ -1,0 +1,7 @@
+# no need as 0 byte monitoring has implemented @reboot /home/ec2-user/iperf3_v1.sh
+# * * * * * /home/ec2-user/iperf3_v1.sh
+# no need as 0 byte monitoring has implemented @reboot  /home/ec2-user/idle_iperf.sh
+# no need as idle has implemented 0 1 * * * /home/ec2-user/everyday_reset.sh
+@reboot /home/ec2-user/monitor_bash.sh
+@reboot /home/ec2-user/two_bash.sh
+# */4 * * * * killall iperf3
